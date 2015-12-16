@@ -1,0 +1,8 @@
+{
+  "name": "node-app-scaffold",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "2.1.x",
+    "angular": "latest"
+  }
+}

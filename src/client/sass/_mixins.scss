@@ -1,0 +1,33 @@
+//mixins
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin transition($duration){
+	-webkit-transition: all $bezier $duration;
+	transition: all $bezier $duration;
+}
+@mixin preserve3D(){
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+@mixin GPU(){
+	-webkit-transform : translateZ(0); 
+	-o-transform : translateZ(0); 
+	-moz-transform : translateZ(0); 
+	transform : translateZ(0); 
+}
+
+@mixin grayscale($amount){
+	@include GPU();
+	-webkit-filter: grayscale($amount);
+	-moz-filter: grayscale($amount);
+	filter: grayscale($amount);
+}
