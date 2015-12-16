@@ -1,8 +1,0 @@
-<div class="tab-header">
-	<ul>
-		<li ng-repeat="tabTitle in tabs" ng-class="{active: tabTitle === current}"><a ng-click="select(tabTitle)">{{tabTitle}}</a></li>
-	</ul>
-</div>
-<div class="tab-body">
-	<ng-transclude></ng-transclude>
-</div>
