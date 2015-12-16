@@ -1,4 +1,4 @@
-var Model = require("../models/Model")
+var Model = require("../models/Model");
 
 module.exports = function (app) {
 	//base API
