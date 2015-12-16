@@ -7,6 +7,6 @@ module.exports = function (app) {
 
   //HTML5 locationProvider support
   app.all('/*', function(req, res) {
-    res.render('index', { title: 'The Main Page });
+    res.render('index', { title: 'The Main Page' });
   });
 };
