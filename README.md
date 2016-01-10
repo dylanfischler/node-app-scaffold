@@ -1,8 +1,8 @@
 # Node App Scaffold
 
 ## Installation
-`npm install` <br>
-`bower install`
+`npm install && bower install`
+`gem install sass`
 
 ## Setup
 #### Define your environment
